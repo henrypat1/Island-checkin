@@ -36,3 +36,9 @@ _The **Island Checkin** MVP Should allow users to see a list of people currently
 |  ruby on rails   | _create back end._ |
 |  Express Router  | _To create router handlers._ |
 
+<br>
+
+### Component Tree
+
+https://drive.google.com/file/d/1sEiYCKDRi-als9GtKjBggdhit5_R-xuA/view?usp=sharing
+
