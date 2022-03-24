@@ -42,3 +42,28 @@ _The **Island Checkin** MVP Should allow users to see a list of people currently
 
 https://drive.google.com/file/d/1sEiYCKDRi-als9GtKjBggdhit5_R-xuA/view?usp=sharing
 
+#### Component Architecture
+
+
+``` structure
+
+src
+|__ screens/
+      |__ Movie.jsx
+      |__ AddMovie.jsx
+      |__ CreateReview.jsx
+      |__ SignIn.jsx
+      |__ SignUp.jsx
+      |__ MovieDetail.jsx
+      |__ UpdateMovie.jsx
+|__ components/
+      |__ Header.jsx
+      |__ Review.jsx
+|__ layouts/
+      |__ Layout.jsx
+|__ services/
+      |__api-Config.js
+      |__movie.js
+      |__review.js
+
+```
