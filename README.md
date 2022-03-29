@@ -1,24 +1,69 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+_**Island Checkin** An application that allows summer residents of Fishers Island let others that they are currently on the island and see who else is.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+<br>
 
-* Database creation
+## MVP
 
-* Database initialization
+_The **Island Checkin** MVP Should allow users to see a list of people currently on they island and show wether they are currently on island aswell. _
 
-* How to run the test suite
+<br>
 
-* Services (job queues, cache servers, search engines, etc.)
+### Goals
 
-* Deployment instructions
+- _Login._
+- _Show the status._
+- _search a person._
+- _create a profile ._
+- _ message a user._
 
-* ...
+<br>
+
+### Libraries and Dependencies
+
+
+
+|     Library      | Description                                |
+| :--------------: | :----------------------------------------- |
+|      React       | _I will be using react for the from end._ |
+|   React Router   | _routing the pages._ |
+|       axios      | _communicate to the back end._ |
+|  ruby on rails   | _create back end._ |
+|  Express Router  | _To create router handlers._ |
+
+<br>
+
+### Component Tree
+
+https://drive.google.com/file/d/1sEiYCKDRi-als9GtKjBggdhit5_R-xuA/view?usp=sharing
+
+#### Component Architecture
+
+
+``` structure
+
+src
+|__ screens/
+      |__ Movie.jsx
+      |__ AddMovie.jsx
+      |__ CreateReview.jsx
+      |__ SignIn.jsx
+      |__ SignUp.jsx
+      |__ MovieDetail.jsx
+      |__ UpdateMovie.jsx
+|__ components/
+      |__ Header.jsx
+      |__ Review.jsx
+|__ layouts/
+      |__ Layout.jsx
+|__ services/
+      |__api-Config.js
+      |__movie.js
+      |__review.js
+
+```
